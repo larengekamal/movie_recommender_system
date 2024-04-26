@@ -1,0 +1,13 @@
+prefix=/Users/larenge/Documents/Projects/movie_recommender_system/venv
+exec_prefix=/Users/larenge/Documents/Projects/movie_recommender_system/venv
+libdir=/Users/larenge/Documents/Projects/movie_recommender_system/venv/lib
+sharedlibdir=/Users/larenge/Documents/Projects/movie_recommender_system/venv/lib
+includedir=/Users/larenge/Documents/Projects/movie_recommender_system/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
